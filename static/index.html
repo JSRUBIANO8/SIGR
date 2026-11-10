@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SIGR | Gestión de restaurante</title><link rel="stylesheet" href="/styles.css"></head>
+<body>
+<div id="login" class="login-screen"><div class="login-card"><div class="brand-logo">✦</div><div class="eyebrow">SISTEMA INTEGRAL</div><h1>Bienvenido a SIGR</h1><p>Tu restaurante, organizado desde un solo lugar.</p><form id="login-form"><label>Correo electrónico<input type="email" name="email" required placeholder="admin@restaurante.com" autocomplete="username"></label><label>Contraseña<input type="password" name="password" required autocomplete="current-password"></label><button class="primary full">Ingresar al sistema</button></form><small>Para empezar, crea un administrador con <code>python manage.py init-admin</code>.</small></div></div>
+<div id="shell" class="shell hidden"><aside class="sidebar"><div class="logo"><span class="mark">✦</span> SIGR<span class="logo-sub">/ restaurante</span></div><div class="side-caption">MENÚ PRINCIPAL</div><nav id="nav"></nav><div class="side-foot"><div id="current-user"></div><button id="logout" class="logout">↪ Cerrar sesión</button></div></aside><main class="main"><header class="topbar"><div><span class="eyebrow">PANEL DE CONTROL</span><h1 id="page-title">Resumen</h1></div><div class="date-pill" id="today"></div></header><div id="content"></div></main></div>
+<div id="toast" class="toast hidden" role="status"></div>
+<script src="/app.js" defer></script></body></html>
